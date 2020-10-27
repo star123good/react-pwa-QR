@@ -1,0 +1,65 @@
+{
+  "name": "scanner",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@daml/ledger": "^1.1.1",
+    "@daml/react": "^1.1.1",
+    "@daml/types": "^1.1.1",
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/styles": "^4.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "material-ui": "^0.20.2",
+    "node-sass": "^4.14.1",
+    "qrcode": "^1.4.2",
+    "qrcode.react": "^0.9.3",
+    "react": "^16.14.0",
+    "react-add-to-homescreen": "^1.1.0",
+    "react-dom": "^16.14.0",
+    "react-qr-scanner": "0.0.10",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "tinycolor2": "^1.4.1",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-sw": "http-server ./build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "http-server": "^0.12.3"
+  },
+  "proxy": "http://localhost:7575"
+}
